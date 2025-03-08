@@ -1,0 +1,33 @@
+Descrição do Processo
+Carregamento dos Dados
+
+Seleção de Colunas
+
+Um módulo seleciona as colunas relevantes do conjunto de dados para o modelo.
+Divisão dos Dados (Split Data)
+
+Os dados são divididos em dois conjuntos: treino e teste. Isso é essencial para avaliar a performance do modelo.
+Treinamento do Modelo (Train Model)
+
+O modelo é treinado usando a parte do conjunto de dados designada para treino.
+Avaliação do Modelo (Score Model)
+
+O modelo é testado nos dados de teste para prever as vendas de sorvete com base na temperatura.
+Saída dos Resultados (Scored Dataset)
+
+A tabela à direita mostra as previsões do modelo, incluindo:
+Temperatura (°C)
+Vendas reais de sorvete
+"Scored Labels" (valores previstos pelo modelo)
+Insights e Possibilidades
+✔ Correlação entre temperatura e vendas
+
+Os valores previstos pelo modelo seguem a tendência dos valores reais. Isso sugere que a temperatura tem um impacto significativo nas vendas de sorvete.
+✔ Qualidade do Modelo
+
+Se os valores previstos estiverem próximos dos valores reais, o modelo tem uma boa performance. Caso contrário, pode ser necessário ajustar os parâmetros ou testar outro algoritmo.
+✔ Possíveis Melhorias
+
+Adicionar mais variáveis: Fatores como dia da semana, feriados ou localização podem influenciar as vendas.
+Ajustar a divisão de dados: A proporção entre treino e teste pode ser ajustada para melhorar a precisão.
+Experimentar outros algoritmos: Testar regressões mais avançadas, redes neurais ou árvores de decisão.
